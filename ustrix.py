@@ -1,6 +1,5 @@
 import subprocess, re
 from prettytable import PrettyTable
-from termcolor import colored
 users=[]; n=1
 command='netsh wlan show profiles'
 proceso = subprocess.run(command, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
